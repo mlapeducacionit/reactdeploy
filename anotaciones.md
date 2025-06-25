@@ -33,6 +33,15 @@ npm run build
 npm run preview
 ```
 
+5. Agregar la ruta del remoto en mi repositorio local
+6. Commit y subida al repo remoto
+7. Hacer el deploy en netlify
+
+
+
+
+
+
 
 
 

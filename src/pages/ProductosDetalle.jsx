@@ -7,7 +7,7 @@ const ProductosDetalle = () => {
     const {id} = useParams()
     const navigate = useNavigate()
     const [productoDetail, setProductoDetail] = useState(null)
-    const url = 'http://localhost:8080/productos/'
+    const url = import.meta.env.VITE_API_PRODUCTOS
 
     useEffect(() => {
         obtenerProducto(id)
